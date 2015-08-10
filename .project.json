@@ -1,0 +1,42 @@
+{
+  "dataBinding": {
+    "/view/Master.view.xml": {
+      "entitySet": "Products"
+    },
+    "/view/Detail.view.xml": {
+      "entitySet": "Products"
+    },
+    "/view/NotFound.view.xml": {
+      "entitySet": "UNBINDKEY"
+    },
+    "/view/App.view.xml": {
+      "entitySet": "UNBINDKEY"
+    }
+  },
+  "generation": [
+    {
+      "templateId": "ui5template.fioriMasterDetail",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Sun, 09 Aug 2015 11:06:58 GMT"
+    }
+  ],
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "mockpreview": {
+    "mockUri": "/destinations/northwind/V2/(S(warren))/OData/OData.svc",
+    "metadataFilePath": "",
+    "loadJSONFiles": false,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "hcpdeploy": {
+    "account": "s0013871965trial",
+    "name": "odatademo",
+    "lastVersionWeTriedToDeploy": "1.0.0"
+  }
+}
